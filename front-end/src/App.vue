@@ -45,7 +45,7 @@ import request from 'superagent'
 import GroupItem from 'components/GroupItem'
 import Message from 'components/Message'
 
-const API_BASE = 'http://localhost:8787'
+const API_BASE = ''
 
 Vue.filter('help', (state) => ({
   'loading': 'Loading...',
